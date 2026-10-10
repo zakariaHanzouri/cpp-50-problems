@@ -2,13 +2,13 @@
 
 using namespace std;
 
-int readPositiveNumber()
+int readPositiveNumber(string msg)
 {
 
     int num;
     do
     {
-        cout << "Enter a positive number: ";
+        cout << msg;
         cin >> num;
     } while (num < 0);
 
