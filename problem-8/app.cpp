@@ -52,8 +52,11 @@ int main(){
 
 
     int wholeNumber = readPositiveNumber("Enter a positive number: ");
+
     short repeatedNumber = readPositiveNumber("Enter a number you want to search: ");
+
     int repetition = digitFrequency(wholeNumber,repeatedNumber);
+    
     printResult(repeatedNumber,repetition);
 
 
